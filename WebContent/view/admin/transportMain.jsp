@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<%@ include file="../common/_transport_top.jspf" %> 
+	<%@ include file="../common/_admin_top.jspf" %> 
 	<%@ include file="../common/_transport_nav.jspf" %> 
 	<div class="container">
 		<div class="row" style="margin-top: 90px">
@@ -40,15 +40,15 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="../img/가구/musinsa.jpg" alt="무신사">
+							<img src="/FulfillmentService/img/가구/musinsa.jpg" alt="무신사">
 							<!-- <div class="carousel-caption">우노</div> -->
 						</div>
 						<div class="item">
-							<img src="../img/가구/under.jpg" alt="언더아머">
+							<img src="/FulfillmentService/img/가구/under.jpg" alt="언더아머">
 							<!-- <div class="carousel-caption">듀에</div> -->
 						</div>
 						<div class="item">
-							<img src="../img/가구/ikea.jpg" alt="이케아">
+							<img src="/FulfillmentService/img/가구/ikea.jpg" alt="이케아">
 							<!-- <div class="carousel-caption">트레</div> -->
 						</div>
 					</div>

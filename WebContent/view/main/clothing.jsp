@@ -12,8 +12,12 @@
 	<jsp:include page="../common/resource.jspf"></jsp:include>
 </head>
 <body>
-	<%@ include file="../common/_top.jspf" %>
+	<header>
+	<%@ include file="../common/_main_top.jspf" %>
+	</header>
+	<nav>
 	<%@ include file="../common/_main_nav.jspf" %>
+	</nav>
 	<div class="container">
 		<div class="row" style="margin-top: 70px">
 			<div class="col-md-offset-1 col-md-11"><h3>의류</h3></div>
@@ -41,8 +45,9 @@
 			</c:forEach>
 		</div>
 	</div>
-
+	<footer>
 	<%@ include file="../common/_bottom.jspf" %>
+	</footer>
 	
 	<div class="row">
 	<c:set var="productList" value="${requestScope.productList}"/>
@@ -89,7 +94,5 @@
 		<% count++; %>
 		</c:forEach>
 	</div>
-	<!-- ==================================================================== -->
-	<!-- ==================================================================== -->
 </body>
 </html>

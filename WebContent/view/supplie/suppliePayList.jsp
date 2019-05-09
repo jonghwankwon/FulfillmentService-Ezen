@@ -12,10 +12,15 @@
 	<jsp:include page="../common/resource.jspf"></jsp:include>
 </head>
 <body>
-	<%@ include file="../common/_purchase_top.jspf"%>
-	<%@ include file="../common/_purchse_nav.jspf"%>
+	<header>
+	<%@ include file="../common/_main_top.jspf" %>
+	</header>
+	<nav>
+	<%@ include file="../common/_supplie_nav.jspf"%>
+	</nav>
+	<section>
 	<div class="container">
-		<div class="row" style="margin-top: 70px">
+		<div class="row" style="margin-top: 70px;margin-left: 90px;">
 			<div class="col-md-offset-1 col-md-11"><h3>대금지급리스트</h3></div>
 			<div class="col-md-12"><hr></div>
 			<div class="col-md-1"></div>
@@ -38,7 +43,10 @@
 			</div>
 		</div>
 	</div>
+	</section>
+	<footer>
 	<%@ include file="../common/_bottom.jspf"%>
+	</footer>
 	<!-- ==================================================================== -->
 </body>
 </html>

@@ -13,8 +13,13 @@
 </head>
 
 <body>
-	<%@ include file="common/_top.jspf"%>
+	<header>
+		<%@ include file="common/_main_top.jspf" %>
+	</header>
+	<nav>
 	<%@ include file="common/_main_nav.jspf"%>
+	</nav>
+	<section>
 	<form action="">
 		<div id="demo" class="carousel slide" data-ride="carousel">
 			<div class="row" style="margin-top: 70px">
@@ -56,6 +61,7 @@
 			</div>
 		</div>
 	</form>
+	</section>
 
 
 	<!-- <div class="container">
@@ -111,7 +117,8 @@
 			<div class="col-md-1"></div>
 		</div>
 	</div> -->
+	<footer>
 	<%@ include file="common/_bottom.jspf"%>
-	<!-- ==================================================================== -->
+	</footer>
 </body>
 </html>

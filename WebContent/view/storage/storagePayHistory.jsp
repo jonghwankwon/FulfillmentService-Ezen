@@ -15,8 +15,13 @@
 <jsp:include page="../common/resource.jspf"></jsp:include>
 </head>
 <body>
-	<%@ include file="../common/_storage_top.jspf"%>
+	<header>
+	<%@ include file="../common/_admin_top.jspf" %>
+	</header>
+	<nav>
 	<%@ include file="../common/_storage_nav.jspf"%>
+	</nav>
+	<section>
 	<div class="container">
 		<div class="row" style="margin-top: 70px">
 			<div class="col-md-offset-1 col-md-11">
@@ -27,7 +32,7 @@
 			<div class="col-md-10">
 				<div class="panel panel-primary">
 						<ul class="nav nav-tabs">
-						  <li role="presentation"><a href="../storage/billingPaymentHistory.jsp">a</a></li>
+						  <li role="presentation"><a href="../storage/storageOrder.jsp">발주 내역</a></li>
 						  <li role="presentation" class="active"><a href="#">지급</a></li>
 						</ul>
 					<table class="table table-striped">
@@ -62,7 +67,10 @@
 			</div>
 		</div>
 	</div>
+	</section>
+	<footer>
 	<%@ include file="../common/_bottom.jspf"%>
+	</footer>
 	<!-- ==================================================================== -->
 </body>
 </html>

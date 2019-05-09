@@ -15,8 +15,13 @@
 <jsp:include page="../common/resource.jspf"></jsp:include>
 </head>
 <body>
-	<%@ include file="../common/_storage_top.jspf"%>
+<header>
+	<%@ include file="../common/_admin_top.jspf" %>
+	</header>
+	<nav>
 	<%@ include file="../common/_storage_nav.jspf"%>
+	</nav>
+	<section>
 	<div class="container">
 		<div class="row" style="margin-top: 70px">
 			<div class="col-md-offset-1 col-md-11">
@@ -44,7 +49,7 @@
 						<th>?</th>
 						<th>?</th>
 						<th>?</th>
-							<th><input type="button" value="조회"></th>
+							<th><input type="button" class="btn btn-primary" value="납품"></th>
 						</tr>
 					</table>
 				</div>
@@ -52,7 +57,10 @@
 			</div>
 		</div>
 	</div>
+	</section>
+	<footer>
 	<%@ include file="../common/_bottom.jspf"%>
+	</footer>
 	<!-- ==================================================================== -->
 </body>
 </html>

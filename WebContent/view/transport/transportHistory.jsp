@@ -15,15 +15,20 @@
 <jsp:include page="../common/resource.jspf"></jsp:include>
 </head>
 <body>
-	<%@ include file="../common/_top.jspf"%>
+	<header>
+	<%@ include file="../common/_main_top.jspf" %>
+	</header>
+	<nav>
 	<%@ include file="../common/_transport_nav.jspf"%>
+	</nav>
+	<section>
 	<div class="container">
 		<div class="row" style="margin-top: 70px">
 			<div class="col-md-offset-1 col-md-11"><h3>운송내역조회</h3></div>
 			<div class="col-md-1"></div>
 			<div class="col-md-8">
 				<div class="panel panel-primary">
-					<table class="table table-striped">
+					<table class="table table-striped" >
 						<thead>
 							<tr>
 								<th>출고번호</th>
@@ -35,6 +40,7 @@
 								<th>제품명</th>
 								<th>수량</th>
 								<th>날짜</th>
+								<th>배송상태</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -48,8 +54,14 @@
 								<th>제품명</th>
 								<th>수량</th>
 								<th>날짜</th>
-								<th>배송상태</th>
-							</tr>
+								<td style="margin-right: 10px">
+									<select style="text-align: center;">        
+							            <option value="출고">출고</option>
+							            <option value="배송전">배송전</option>
+							            <option value="배송중">배송중</option>
+							            <option value="배송완료">배송완료</option>
+								     </select>
+								</td>
 						</tbody>
 					</table>
 				</div>
@@ -57,7 +69,10 @@
 			</div>
 		</div>
 	</div>
+	</section>
+	<footer>
 	<%@ include file="../common/_bottom.jspf"%>
+	</footer>
 	<!-- ==================================================================== -->
 </body>
 </html>

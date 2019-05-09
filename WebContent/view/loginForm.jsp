@@ -16,7 +16,7 @@
 	<jsp:include page="common/resource.jspf"></jsp:include>
 </head>
 <body>
-	<%@ include file="common/_top.jspf"%>
+	<%@ include file="common/_main_top.jspf"%>
 <div class="container login-container" style="margin-left: 25%;" >
             <div class="row">
                 <div class="col-md-4 login-form-1">

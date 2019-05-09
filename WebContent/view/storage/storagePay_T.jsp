@@ -12,7 +12,7 @@
 	<jsp:include page="../common/resource.jspf"></jsp:include>
 </head>
 <body>
-<header>
+	<header>
 	<%@ include file="../common/_admin_top.jspf" %>
 	</header>
 	<nav>
@@ -21,7 +21,7 @@
 	<section>
 	<div class="container">
 		<div class="row" style="margin-top: 70px">
-			<div class="col-md-offset-1 col-md-11"><h3>청구 / 지급 (구매처)</h3></div>
+			<div class="col-md-offset-1 col-md-11"><h3>청구 / 지급 (운송회사)</h3></div>
 			<div class="col-md-12"><hr></div>
 			<div class="col-md-1"></div>
 			<div class="col-md-8">
@@ -30,13 +30,13 @@
 						  <li role="presentation"><a href="/FulfillmentService/view/storage/storageCharge.jsp">청구</a></li>
 						  <li role="presentation" class="active"><a href="#">지급</a></li>
 						</ul>
+					
 					<table class="table table-striped">
-						
 						<%-- <%@ include file="../common/_storage.jspf" %> --%>
 						<tr>
 						<th><select id="Payment" onChange="onloadPage(this);" style="border: 5px;">
-							<option value="storagePay.jsp">구매처</option>
 							<option value="storagePay_T.jsp">운송회사</option>
+							<option value="storagePay.jsp">구매처</option>
 							</select>
 						</th>
 						<th>관리자 ID</th>
@@ -53,7 +53,7 @@
 						</tr>
 					</table>
 					<hr>
-					<div class="panel panel-danger">
+					<div class="panel panel-primary">
 						<table class="table table-striped">
 							<tr>
 								<th>ID</th>

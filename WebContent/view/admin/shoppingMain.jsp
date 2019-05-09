@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<%@ include file="../common/_shopping_top.jspf" %> 
+	<%@ include file="../common/_admin_top.jspf" %> 
 	<%@ include file="../common/_shopping_nav.jspf" %> 
 	<div class="container">
 		<div class="row" style="margin-top: 90px">

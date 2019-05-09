@@ -18,14 +18,14 @@
 .nav-side-menu {
   overflow: auto;
   font-family: verdana;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 200;
   background-color: #2e353d;
-  position: fixed;
-  top: auto;
+  position: absolute;
+  top: 90px;
   padding-left: 0px;
   height: 100%;
-  width: 17%;
+  width: 230px;
   color: #e1ffff;
 }
 
@@ -75,7 +75,7 @@
 .nav-side-menu li .sub-menu li {
   background-color: #181c20;
   border: none;
-  line-height: 50px;
+  line-height: 40px;
   border-bottom: 1px solid #23282e;
   margin-left: 0px;
 }
@@ -130,8 +130,8 @@
     top: 10px;
     z-index: 10 !important;
     padding: 3px;
-    background-color: #ffffff;
-    color: #000;
+    background-color: #23282E;
+    color: #ffffff;
     width: 40px;
     text-align: center;
   }

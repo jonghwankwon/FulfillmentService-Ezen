@@ -13,8 +13,13 @@
 <jsp:include page="../common/resource.jspf"></jsp:include>
 </head>
 <body>
-	<%@ include file="../common/_shopping_top.jspf"%>
+	<header>
+	<%@ include file="../common/_admin_top.jspf" %>
+	</header>
+	<nav>
 	<%@ include file="../common/_shopping_nav.jspf"%>
+	</nav>
+	<section>
 	<div class="container">
 		<div class="row" style="margin-top: 80px">
 			<div class="col-md-offset-1 col-md-6">
@@ -28,7 +33,7 @@
 						<label class="control-label">검색:&nbsp;&nbsp;</label> <input
 							type="text" name="search" id="search1"
 							placeholder="검색할 내용을 입력하세요">&nbsp;&nbsp; <input
-							class="btn btn-primary btn-sm" type="submit" value="검색">
+							class="btn btn-primary" type="submit" value="검색">
 					</div>
 				</form>
 			</div>
@@ -40,12 +45,14 @@
 				<div class="panel panel-primary">
 					<table class="table table-striped table-condensed">
 						<thead>
+						<tr>
 							<th class="col-md-2" style="text-align: center;">고객명</th>
 							<th class="col-md-2" style="text-align: center;">전화번호</th>
 							<th class="col-md-2" style="text-align: center;">주소</th>
 							<th class="col-md-2" style="text-align: center;">제품코드</th>
 							<th class="col-md-2" style="text-align: center;">제품명</th>
 							<th class="col-md-2" style="text-align: center;">수량</th>
+						</tr>
 						</thead>
 						<%-- <tbody>
 					    <c:set var="dsList" value="${requestScope.dailySalesList}"/>
@@ -62,11 +69,24 @@
 						</tbody> --%>
 					</table>
 				</div>
+				<!-- 페이지 번호  -->
+				<div align="center">
+					<ul class="pagination">
+						<li class="page-item"><a class="page-link" href="#">back</a></li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">next</a></li>
+					</ul>
+				</div>
 				<div class="col-md-1"></div>
 			</div>
 		</div>
 	</div>
+	</section>
+	<footer>
 	<%@ include file="../common/_bottom.jspf"%>
+	</footer>
 	<!-- ==================================================================== -->
 </body>
 </html>

@@ -6,14 +6,19 @@
         <div class="menu-list">
             <ul id="menu-content" class="menu-content collapse out">
                 <li  data-toggle="collapse" data-target="#products" class="collapsed active">
-                  <a href="#"><i class="fab fa-studiovinari fa-lg"></i> 상품 목록 <span class="arrow"></span></a>
+                  <a href="#"><i class="fas fa-list"></i> 상품 목록 <span class="arrow"></span></a>
                 </li>
                 <ul class="sub-menu collapse" id="products">
-                    <li><a href="/FulfillmentService/view/main/clothing.jsp">의류</a></li>
-                    <li><a href="/FulfillmentService/view/main/food.jsp">식품</a></li>
-                    <li><a href="/FulfillmentService/view/main/sports.jsp">스포츠</a></li>
-                    <li><a href="/FulfillmentService/view/main/furniture.jsp">가구</a></li>
-                    <li><a href="/FulfillmentService/view/main/homeAppliances.jsp">가전제품</a></li>
+                    <li><a href="/FulfillmentService/view/main/clothing.jsp">
+                    <i class="fas fa-tshirt"></i>&nbsp;의류</a></li>
+                    <li><a href="/FulfillmentService/view/main/food.jsp">
+                    <i class="fas fa-utensils"></i>&nbsp;식품</a></li>
+                    <li><a href="/FulfillmentService/view/main/sports.jsp">
+                    <i class="fas fa-dumbbell"></i>&nbsp;스포츠</a></li>
+                    <li><a href="/FulfillmentService/view/main/furniture.jsp">
+                    <i class="fas fa-couch"></i>&nbsp;가구</a></li>
+                    <li><a href="/FulfillmentService/view/main/homeAppliances.jsp">
+                    <i class="fas fa-tv"></i>&nbsp;가전제품</a></li>
                 </ul>
             </ul>
      </div>
