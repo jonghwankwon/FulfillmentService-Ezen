@@ -31,9 +31,11 @@ return true;
 	</script>
 </head>
 <body>
+<header>
 	<%@ include file="common/_main_top.jspf"%>
-
-	<div class="container join-container" style="margin-left: 30%; margin-top: 4%;">
+</header>
+<section style="height: 550px;">
+	<div class="container join-container" style="margin-left: 30%; margin-top: 4%; margin-left: 25%; height: 400px;">
 		<div class="row">
 			<div class="col-md-6 login-form-1">
 				<h3>회원 가입</h3>
@@ -61,10 +63,10 @@ return true;
 			</div>
 		</div>
 	</div>
-
-
-
+</section>
+	<footer>
 	<%@ include file="common/_bottom.jspf"%>
+	</footer>
 	<!-- ==================================================================== -->
 </body>
 </html>
