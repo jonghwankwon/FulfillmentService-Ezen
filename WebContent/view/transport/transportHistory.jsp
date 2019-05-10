@@ -41,6 +41,7 @@
 								<th>수량</th>
 								<th>날짜</th>
 								<th>배송상태</th>
+								<th><input type="button" value="조회"></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -62,6 +63,7 @@
 							            <option value="배송완료">배송완료</option>
 								     </select>
 								</td>
+								<th></th>
 						</tbody>
 					</table>
 				</div>

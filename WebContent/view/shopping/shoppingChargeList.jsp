@@ -31,10 +31,9 @@
 							<tr>
 								<th>청구번호</th>
 								<th>쇼핑몰ID</th>
-								<th>송장ID</th>
-								<th>제품명</th>
 								<th>청구가격</th>
-								<th>날 짜</th>
+								<th>날짜</th>
+								<th>상태</th>
 								<th></th>
 							</tr>
 						</thead>
@@ -45,8 +44,7 @@
 								<th>#</th>
 								<th>#</th>
 								<th>#</th>
-								<th>#</th>
-								<th><input class="btn btn-primary" type="button" value="청구"></th>
+								<th><input class="btn btn-primary" type="button" value="지급"></th>
 							</tr>
 						</tbody>
 					</table>

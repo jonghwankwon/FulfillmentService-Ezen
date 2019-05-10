@@ -1,14 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<% request.setCharacterEncoding("UTF-8"); %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- ==================================================================== -->
+
+
 <title>쇼핑몰 송장 내역 조회</title>
 <jsp:include page="../common/resource.jspf"></jsp:include>
 </head>
@@ -28,14 +28,6 @@
 				</h3>
 			</div>
 			<div class="col-md-5">
-				<form action="#" class="form-horizontal" method="post">
-					<div class="form-group">
-						<label class="control-label">검색:&nbsp;&nbsp;</label> <input
-							type="text" name="search" id="search1"
-							placeholder="검색할 내용을 입력하세요">&nbsp;&nbsp; <input
-							class="btn btn-primary" type="submit" value="검색">
-					</div>
-				</form>
 			</div>
 			<div class="col-md-12">
 				<hr>

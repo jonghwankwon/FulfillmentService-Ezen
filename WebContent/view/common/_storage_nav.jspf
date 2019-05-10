@@ -17,7 +17,7 @@
 					<i class="fas fa-coins"></i>&nbsp;매출 이익 조회</a></li>
 					<li><a href="/FulfillmentService/view/storage/storageOrderHistory.jsp">
 					<i class="fas fa-sort-amount-up"></i>&nbsp;발주 내역 조회</a></li>
-					<li><a href=/FulfillmentService/view/storage/storageTransportHistory.jsp">
+					<li><a href="/FulfillmentService/view/storage/storageTransportHistory.jsp">
 					<i class="fas fa-history"></i>&nbsp;운송 내역 조회</a></li>
 				</ul>
 				

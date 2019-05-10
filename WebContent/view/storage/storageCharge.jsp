@@ -30,21 +30,38 @@
 			<div class="col-md-10">
 				<div class="panel panel-primary">
 					<ul class="nav nav-tabs">
-						  <li role="presentation" class="active"><a href="#">청구</a></li>
-						  <li role="presentation" ><a href="/FulfillmentService/view/storage/storagePay.jsp">지급</a></li>
+						<li role="presentation" class="active"><a href="#">청구</a></li>
+						<li role="presentation" ><a href="/FulfillmentService/view/storage/storagePay.jsp">지급</a></li>
+						<li style="margin-left: 50%">조회 : <input type="date" id="datepicker1">&nbsp;
+						<input  type="button" class="btn btn-primary" value="조회"></li>
 						</ul>
+						
+						<!-- monthpicker 생성 -->
+						
 					<table class="table table-striped">
 						<thead>
 						<tr>
-							<th class="col-md-4">물품명</th>
-							<th class="col-md-4">청구 가격</th>
+						<th><select id="Payment" onChange="onloadPage(this);" style="border: 5px;">
+							<option value="storageCharge.jsp">JH쇼핑몰</option>
+							<option value="storageCharge_SW.jsp">SW쇼핑몰</option>
+							<option value="storageCharge_GJ.jsp">GJ쇼핑몰</option>
+							</select>
+							<th>쇼핑몰이름</th>
+							<th>청구가격</th>
+							<th>제품가격</th>
+							<th>날짜</th>
+							<th>물품명</th>
 						</tr>
 						</thead>
 						<tbody>
 						<tr>
-						<th>(물품명)</th>
-						<th>(가격)</th>
-							<th class="col-md-3"><input  type="button" class="btn btn-primary" value="청구"></th>
+						<th>#</th>
+						<th>#</th>
+						<th>#</th>
+						<th>#</th>
+						<th>#</th>
+						<th>#</th>
+						<th><input  type="button" class="btn btn-primary" value="청구"></th>
 						</tr>
 						
 						</tbody>

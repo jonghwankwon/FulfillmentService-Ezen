@@ -32,6 +32,8 @@
 					<ul class="nav nav-tabs">
 						  <li role="presentation" ><a href="../storage/storageOrder.jsp">발주</a></li>
 						  <li role="presentation" class="active"><a href="">출고</a></li>
+						  <li style="margin-left: 50%">조회 : <input type="date" id="datepicker1">&nbsp;
+						  <input  type="button" class="btn btn-primary" value="조회"></li>
 						</ul>
 					<table class="table table-striped">
 						<thead>

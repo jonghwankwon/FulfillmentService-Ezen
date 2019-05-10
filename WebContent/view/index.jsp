@@ -33,34 +33,73 @@
 						<p>
 					</div>
 
-					<ul class="carousel-indicators">
-						<li data-target="#demo" data-slide-to="0" class="active"></li>
-						<li data-target="#demo" data-slide-to="1"></li>
-						<li data-target="#demo" data-slide-to="2"></li>
-					</ul>
+						<ul class="carousel-indicators">
+							<li data-target="#demo" data-slide-to="0" class="active"></li>
+							<li data-target="#demo" data-slide-to="1"></li>
+							<li data-target="#demo" data-slide-to="2"></li>
+						</ul>
 
-					<div class="carousel-inner">
-						<div class="item active">
-							<img src="../img/가구/musinsa.jpg" alt="무신사">
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="../img/가구/musinsa.jpg" alt="무신사">
+							</div>
+							<div class="item">
+								<img src="../img/가구/under.jpg" alt="언더아머">
+							</div>
+							<div class="item">
+								<img src="../img/가구/ikea.jpg" alt="이케아">
+							</div>
 						</div>
-						<div class="item">
-							<img src="../img/가구/under.jpg" alt="언더아머">
-						</div>
-						<div class="item">
-							<img src="../img/가구/ikea.jpg" alt="이케아">
-						</div>
-					</div>
 
-					<!-- Left and right controls -->
-					<a class="carousel-control-prev" href="#demo" data-slide="prev">
-						<span class="carousel-control-prev-icon"></span>
-					</a> <a class="carousel-control-next" href="#demo" data-slide="next">
+						<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span></a>
+						<a class="carousel-control-next" href="#demo" data-slide="next">
 						<span class="carousel-control-next-icon"></span>
-					</a>
+						</a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</form>
+		</form>
+	<form action="">
+		<div id="demo" class="carousel slide" data-ride="carousel">
+			<div class="row" style="margin-top: 70px">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<div class="jumbotron well">
+						<p>
+						<h2>Ezen Fulfillment Service</h2>
+						<p>
+						<h4>이젠 창고 서비스는 의류, 식품, 가전제품, 스포츠, 가구를 보관하고 있습니다.</h4>
+						<p>
+					</div>
+
+						<ul class="carousel-indicators">
+							<li data-target="#demo" data-slide-to="0" class="active"></li>
+							<li data-target="#demo" data-slide-to="1"></li>
+							<li data-target="#demo" data-slide-to="2"></li>
+						</ul>
+
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="../img/가구/musinsa.jpg" alt="무신사">
+							</div>
+							<div class="item">
+								<img src="../img/가구/under.jpg" alt="언더아머">
+							</div>
+							<div class="item">
+								<img src="../img/가구/ikea.jpg" alt="이케아">
+							</div>
+						</div>
+
+						<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span></a>
+						<a class="carousel-control-next" href="#demo" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</form>
 	</section>
 
 

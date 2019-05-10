@@ -27,9 +27,11 @@
 			<div class="col-md-8">
 				<div class="panel panel-primary">
 				<ul class="nav nav-tabs">
-						  <li role="presentation"><a href="/FulfillmentService/view/storage/storageCharge.jsp">청구</a></li>
-						  <li role="presentation" class="active"><a href="#">지급</a></li>
-						</ul>
+						<li role="presentation"><a href="/FulfillmentService/view/storage/storageCharge.jsp">청구</a></li>
+						<li role="presentation" class="active"><a href="#">지급</a></li>
+						<li style="margin-left: 50%">조회 : <input type="date" id="datepicker1">&nbsp;
+						<input  type="button" class="btn btn-primary" value="조회"></li>
+				</ul>
 					<table class="table table-striped">
 						
 						<%-- <%@ include file="../common/_storage.jspf" %> --%>
@@ -43,16 +45,18 @@
 						<th>이름</th>
 						<th>지급 가격</th>
 						<th>지급 상태</th>
-						<th></th>
+						<th>날     짜</th>
 						</tr>
+						
 						<tr>
 							<th>?</th>
 							<th>?</th>
 							<th>?</th>
-							<th style="font-size: 14px"><input type="date" id="datepicker1">&nbsp;&nbsp;</th>
+							<th>?</th>
+							<th>?</th>
+							<th><!--  style="font-size: 14px"><input type="date" id="datepicker1">&nbsp;&nbsp; --></th>
 						</tr>
 					</table>
-					<hr>
 					<div class="panel panel-danger">
 						<table class="table table-striped">
 							<tr>
@@ -97,11 +101,5 @@
 	        $("#datepicker1").datepicker();
 	    });
 	</script>
-	<script type="text/javascript">
-		function onloadPage(i){
-			location.href=i.value;
-			//console.log(i.value);
-		}
-   </script>
 </body>
 </html>
